@@ -10,8 +10,24 @@
     <h1>Atrums ir spēks</h1>
     <p>Uzspied uz suni , noker kaku, uzzināsi savu reakcijas laiku.</p>
     <p>Tavs laiks <span id="tavslaiks">Te būs redzams tavs laiks</span></p>
-    <div id="attels" style="postition: absolute"></div>
+    <div id="attels" style="position: absolute"></div>
 
-    </div>
+    <script>
+        var sakums;
+        var beigas;
+        var bilde=document.getElementById("attels");
+        var game=false;
+
+        //funkcija kas nejausa punktā parāda attēlu
+        
+        function paradies(){
+            var top=Math.random()*150; // y ass kodrinātas
+            var left=Math.random()*400; // x ass kordinātas
+
+            document.getElementById("attels").style.top=top+"px";
+            document.getElementById("attels").style.left=left+"px";
+            document.getElementById()("attels").style.backgroundColor="green";
+        }
+    </script>
 </body>
 </html>
